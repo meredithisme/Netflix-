@@ -1,0 +1,52 @@
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 1.618rem;
+}
+
+header.navbar {
+  border-radius: 0;
+}
+
+h1 {
+  font-weight: bold;
+  letter-spacing: -2px;
+  max-width: 300px;
+  background: #231e1e;
+  border-color: black;
+  color: white;
+  padding: 1rem;
+  min-height: 16rem;
+  position: relative;
+}
+
+.form-group {
+	color: black;
+}
+
+.card {
+  background: #231e1e;
+  border-color: black;
+  color: white;
+  padding: 1rem;
+  min-height: 16rem;
+  position: relative;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: silver;
+  font-size: 0.6rem;
+}
+
+footer .heart {
+  color:#cf2e31;
+}
